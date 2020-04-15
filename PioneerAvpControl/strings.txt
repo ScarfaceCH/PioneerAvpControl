@@ -1,0 +1,361 @@
+# Strings for PIONEERAVPCONTROL
+PLUGIN_PIONEERAVPCONTROL
+	EN	PioneerAvpControl
+	DE	PioneerAvpControl
+
+PLUGIN_PIONEERAVPCONTROL_MODULE_NAME
+	EN	PIONEER AVP/AVR Control
+	DE	PIONEER AVP/AVR Control
+
+PLUGIN_PIONEERAVPCONTROL_DESCRIPTION
+	EN	This plugin will control a network ready PIONEER AVP/AVR from the SqueezeCenter or Squeezebox.  The plugin will turn the PIONEER device on/off, adjust and synchronize the volumes.
+	DE	Dieses Plugin steuert einen PIONEER AVP/AVR mit Netzwerkunterstützung aus SqueezeCenter oder von einer Squeezebox. Das Plugin kann das PIONEER Gerät ein/aus schalten sowie die Lautstärke regeln und synchronisieren.
+
+PLUGIN_PIONEERAVPCONTROL_BASIC_SETTINGS_HEADER
+	EN	Changes made here effect the functionality of the PIONEER AVP/AVR Control plugin.
+	DE	Änderungen hier betreffen die Funktionen des Plugins PIONEER AVP/AVR Control
+
+PLUGIN_PIONEERAVPCONTROL_SAVE
+	EN	You must restart the server for these changes to take effect.
+	DE	Der Server muss neu gestartet werden damit die Änderungen in Kraft treten.
+	
+PLUGIN_PIONEERAVPCONTROL_ENABLED
+	EN	Enable plugin?
+	DE	Plugin verwenden?
+
+PLUGIN_PIONEERAVPCONTROL_ENABLED_DESC
+	EN	If you wish to turn on the PIONEER AVP/AVR when the Squeezebox is turned on or played and put in standby when the Squeezebox is turned off, enable this checkbox.
+	DE	Wenn Sie den PIONEER AVP/AVR einschalten wollen wenn die Squeezebox eingeschaltet ist oder spielt und ihn in den Standby-Modus versetzen wollen, wenn die Squeezebox aus ist, aktivieren Sie dieses Feld.
+
+PLUGIN_PIONEERAVPCONTROL_AUDIOMENU_ENABLED
+	EN	Enable audio settings menus?
+	DE	Menüs für Audioeinstellungen verwenden?
+
+PLUGIN_PIONEERAVPCONTROL_AUDIOMENU_ENABLED_DESC
+	EN	If you wish to be able to change various audio settings on the PIONEER AVP/AVR during playback such as surround mode, room equalizer, dynamic equalizer, restorer and dynamic volume, enable this checkbox.  This feature will require a Squeezebox Controller on the native iPeng application running on a iPhone or iPod Touch device.
+	DE	Schalten Sie diese Option ein, wenn Sie verschiedene Audio-Einstellungen des PIONEER AVP/AVR während der Wiedergabe ändern können wollen, z.B. Surround-Mode, Raumkorrektur-Equalizer, Dynamischen Equalizer, Compressed Audio Restorer und dynamische Lautstärkeanpassung. Diese Funktion benötigt einen Squeezebox Controller oder die iPeng App auf einem iPhone oder iPod Touch.
+
+PLUGIN_PIONEERAVPCONTROL_VOLSYNCH_ENABLED
+	EN	Enable synching the volume?
+	DE	Lautstärkensynchronisation?
+
+PLUGIN_PIONEERAVPCONTROL_VOLSYNCH_ENABLED_DESC
+	EN	If you wish to have the PIONEER AVP/AVR volume adjust the Squeezebox volume at each track change, enable this checkbox.  This will allow volume changes on the Pioneer to change the Squeezebox volume indicator.  Only available for the Main zone.
+	DE	Schalten Sie diese Funktion ein, um bei jedem Titelwechsel die Lautstärke der Squeezebox an die Lautstärke des PIONEER AVP/AVR anzupassen. Dadurch wird es möglich, dass Lautstärkenänderungen auf dem Pioneer-Gerät von der Lautstärkeanzeige der Squeezebox angezeigt werden. Nur für die Hauptzone verfügbar.
+
+PLUGIN_PIONEERAVPCONTROL_INPUT_BD
+	EN	BD
+	DE	BD
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_DVD
+	EN	DVD
+	DE	DVD
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_TV_SAT
+	EN	TV/SAT
+	DE	TV/SAT
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_DVR_BDR
+	EN	DVR/BDR
+	DE	DVR/BDR
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_VIDEO_1
+	EN	VIDEO 1(VIDEO)
+	DE	VIDEO 1(VIDEO)
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_VIDEO_2
+	EN	VIDEO 2
+	DE	VIDEO 2
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_HDMI_1
+	EN	HDMI 1
+	DE	HDMI 1
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_HDMI_2
+	EN	HDMI 2
+	DE	HDMI 2
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_HDMI_3
+	EN	HDMI 3
+	DE	HDMI 3
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_HDMI_4
+	EN	HDMI 4
+	DE	HDMI 4
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_HDMI_5
+	EN	HDMI 5
+	DE	HDMI 5
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_HDMI_6
+	EN	HDMI 6
+	DE	HDMI 6
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_HOME_MEDIA_GALLERY
+	EN	HOME MEDIA GALLERY(Internet Radio)
+	DE	HOME MEDIA GALLERY(Internet Radio)
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_IPOD_USB
+	EN	iPod/USB
+	DE	iPod/USB
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_CD
+	EN	CD
+	DE	CD
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_CD_R_TAPE
+	EN	CD-R/TAPE
+	DE	CD-R/TAPE
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_TUNER
+	EN	TUNER
+	DE	TUNER
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_PHONO
+	EN	PHONO
+	DE	PHONO
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_MULTI_CH_IN
+	EN	MULTI CH IN
+	DE	MULTI CH IN
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_ADAPTER_PORT
+	EN	ADAPTER PORT
+	DE	ADAPTER PORT
+	
+PLUGIN_PIONEERAVPCONTROL_INPUT_SIRIUS
+	EN	SIRIUS
+	DE	SIRIUS
+
+PLUGIN_PIONEERAVPCONTROL_INPUT
+	EN	Input Change
+	DE	Eingangswahl
+
+PLUGIN_PIONEERAVPCONTROL_INPUT_DESC
+	EN	Select to which Input you would like the PIONEER AVP/AVR to switch to when turning on the Squeezebox. Note that maybe not all Inputs are availiable for every zone - please check your Pioneer manual.
+	DE	Wählen Sie aus, welchen Eingang der PIONEER AVP/AVR auswählen soll, wenn die Squeezebox eingeschaltet wird. Welche Eingänge in welcher Zone verfügbar sind, entnehmen sie bitte ihrem Pioneer Handbuch. 
+
+PLUGIN_PIONEERAVPCONTROL_ZONE1
+	EN	Main
+	DE	Hauptzone
+
+PLUGIN_PIONEERAVPCONTROL_ZONE2
+	EN	Zone 2
+	DE	Zone 2
+
+PLUGIN_PIONEERAVPCONTROL_ZONE3
+	EN	Zone 3
+	DE	Zone 3
+
+PLUGIN_PIONEERAVPCONTROL_ZONE
+	EN	Zone Option
+	DE	Zonenauswahl
+
+PLUGIN_PIONEERAVPCONTROL_ZONE_DESC
+	EN	Select which zone you would like the PIONEER AVP/AVR to control.
+	DE	Wählen Sie aus, welche Zone der PIONEER AVP/AVR steuern soll.
+
+PLUGIN_PIONEERAVPCONTROL_AVPADDRESS
+	EN	IP Address of Pioneer AVP/AVR
+	DE	IP-Adresse des Pioneer AVP/AVR
+
+PLUGIN_PIONEERAVPCONTROL_AVPADDRESS_DESC
+	EN	Enter the IP Address of PIONEER AVP/AVR.  Note this plugin will only work for fixed IP addresses.
+	DE	Geben Sie die IP-Adresse des PIONEER AVP/AVR ein. Achtung: Dieses Plugin funktioniert nur mit festen IP-Adressen.
+
+PLUGIN_PIONEERAVPCONTROL_ONDELAY
+	EN	Delay to turn PIONEER AVP/AVR on
+	DE	Einschaltverzögerung
+
+PLUGIN_PIONEERAVPCONTROL_ONDELAY_DESC
+	EN	Enter the number of seconds you want to wait for after the Squeezebox is turned on before the PIONEER AVP/AVR is activated.
+	DE	Geben Sie ein, wie viele Sekunden Sie nach dem Einschalten der Squeezebox warten wollen, before der PIONEER AVP/AVR eingeschaltet wird.
+
+PLUGIN_PIONEERAVPCONTROL_OFFDELAY
+	EN	Delay to put PIONEER AVP/AVR in Standby
+	DE	Ausschaltverzögerung
+
+PLUGIN_PIONEERAVPCONTROL_OFFDELAY_DESC
+	EN	Enter the number of seconds you want to wait for after the Squeezebox is turned off before the PIONEER AVP/AVR is placed in Standby.
+	DE	Geben Sie die Anzahl der Sekunden ein, die Sie nach dem Ausschalten der Squeezebox warten wollen, bevor der PIONEER AVP/AVR in den Standby-Modus geschaltet wird.
+
+PLUGIN_PIONEERAVPCONTROL_MAXVOL
+	EN	Maximum volume of PIONEER AVP/AVR
+	DE	Maximale Lautstärke
+
+PLUGIN_PIONEERAVPCONTROL_MAXVOL_DESC
+	EN	Enter the maximum volume you want the plugin to adjust the PIONEER AVP/AVR too when making volume adjustments.  100% volume at the Squeezebox will be limited to this value on the PIONEER AVP/AVR.
+	DE	Geben Sie die maximale Lautstärke ein (-80db bis +12db), auf die das Plugin den PIONEER AVP/AVR regelt, wenn Sie die Lautstärke anpassen. 100% Lautstärke auf der Squeezebox entspricht diesem Wert auf dem PIONEER AVP/AVR.
+
+PLUGIN_PIONEERAVPCONTROL_AUDIO1
+	EN	Surround Mode
+	DE	Surround Modus
+
+PLUGIN_PIONEERAVPCONTROL_AUDIO2
+	EN	Room Equalizer
+	DE	Raumkorrektur Equalizer
+
+PLUGIN_PIONEERAVPCONTROL_AUDIO3
+	EN	Dynamic Equalizer
+	DE	Dynamischer Equalizer
+
+PLUGIN_PIONEERAVPCONTROL_AUDIO4
+	EN	Dynamic Volume
+	DE	Dynamische Lautstärke
+
+PLUGIN_PIONEERAVPCONTROL_AUDIO5
+	EN	Audio Restorer
+	DE	Audio Restorer
+
+PLUGIN_PIONEERAVPCONTROL_AUDIO6
+	EN	Reference Level Offset
+	DE	Referenzpegeloffset
+
+PLUGIN_PIONEERAVPCONTROL_SURMD1
+	EN	Direct
+	DE	Direct-Modus
+
+PLUGIN_PIONEERAVPCONTROL_SURMD2
+	EN	Pure Direct
+	DE	Pure-Direct-Modus
+
+PLUGIN_PIONEERAVPCONTROL_SURMD3
+	EN	Stereo
+	DE	Stereo
+
+PLUGIN_PIONEERAVPCONTROL_SURMD4
+	EN	Standard
+	DE	Standard
+
+PLUGIN_PIONEERAVPCONTROL_SURMD5
+	EN	Dolby Digital
+	DE	Dolby Digital
+
+PLUGIN_PIONEERAVPCONTROL_SURMD6
+	EN	DTS Surround
+	DE	DTS Surround
+
+# Is this really "Neural" and not "Neutral". Didn't find it in the docs
+PLUGIN_PIONEERAVPCONTROL_SURMD7
+	EN	Neural
+	DE	Neural
+
+PLUGIN_PIONEERAVPCONTROL_SURMD8
+	EN	Dolby H/P
+	DE	Dolby H/P
+
+PLUGIN_PIONEERAVPCONTROL_SURMD9
+	EN	Home THX Cinema
+	DE	THX Cinema
+
+PLUGIN_PIONEERAVPCONTROL_SURMD10
+	EN	Wide Screen
+	DE	Wide Screen
+
+PLUGIN_PIONEERAVPCONTROL_SURMD11
+	EN	5/7 Channel Stereo
+	DE	5/7 Kanal Stereo
+
+PLUGIN_PIONEERAVPCONTROL_SURMD12
+	EN	Super Stadium
+	DE	Super Stadium
+
+PLUGIN_PIONEERAVPCONTROL_SURMD13
+	EN	Rock Arena
+	DE	Rock Arena
+
+PLUGIN_PIONEERAVPCONTROL_SURMD14
+	EN	Jazz Club
+	DE	Jazz Club
+
+PLUGIN_PIONEERAVPCONTROL_SURMD15
+	EN	Classic Concert
+	DE	Classic Konzert
+
+PLUGIN_PIONEERAVPCONTROL_SURMD16
+	EN	Mono Movie
+	DE	Mono Film
+
+PLUGIN_PIONEERAVPCONTROL_SURMD17
+	EN	Matrix
+	DE	Matrix
+
+PLUGIN_PIONEERAVPCONTROL_SURMD18
+	EN	Video Game
+	DE	Videospiel
+
+PLUGIN_PIONEERAVPCONTROL_RMEQ1
+	EN	Audyssey
+	DE	Audyssey
+
+PLUGIN_PIONEERAVPCONTROL_RMEQ2
+	EN	Audyssey Bypass L/R
+	DE	Audyssey Bypass L/R
+
+PLUGIN_PIONEERAVPCONTROL_RMEQ3
+	EN	Audyssey Flat
+	DE	Audyssey Flat
+
+PLUGIN_PIONEERAVPCONTROL_RMEQ4
+	EN	Manual
+	DE	Manuell
+
+PLUGIN_PIONEERAVPCONTROL_RMEQ5
+	EN	Off
+	DE	Aus
+
+PLUGIN_PIONEERAVPCONTROL_NIGHT1
+	EN	Dynamic Vol. Setting = Midnight
+	DE	Dynamische Laustärke = Mitternacht
+
+PLUGIN_PIONEERAVPCONTROL_NIGHT2
+	EN	Dynamic Vol. Setting = Evening
+	DE	Dynamische Lautstärke = Abend
+
+PLUGIN_PIONEERAVPCONTROL_NIGHT3
+	EN	Dynamic Vol. Setting = Day
+	DE	Dynamische Lautstärke = Tag
+
+PLUGIN_PIONEERAVPCONTROL_REST1
+	EN	Restorer Off
+	DE	Restorer Aus
+
+PLUGIN_PIONEERAVPCONTROL_REST2
+	EN	Restorer 64
+	DE	Restorer 64
+
+PLUGIN_PIONEERAVPCONTROL_REST3
+	EN	Restorer 96
+	DE	Restorer 96
+
+PLUGIN_PIONEERAVPCONTROL_REST4
+	EN	Restorer HQ
+	DE	Restorer HQ
+
+PLUGIN_PIONEERAVPCONTROL_DYNVOL1
+	EN	Dynamic EQ and Volume Off
+	DE	Dynamischer EQ und -Lautstärke Aus
+
+PLUGIN_PIONEERAVPCONTROL_DYNVOL2
+	EN	Dynamic EQ On
+	DE	Dynamischer EQ Ein
+
+PLUGIN_PIONEERAVPCONTROL_DYNVOL3
+	EN	Dynamic EQ and Volume On
+	DE	Dynamischer EQ und -Laustärke Ein
+
+PLUGIN_PIONEERAVPCONTROL_REF_LEVEL0
+	EN	Reference Level Offset=0db
+	DE	Referenzpegeloffset=0db
+
+PLUGIN_PIONEERAVPCONTROL_REF_LEVEL5
+	EN	Reference Level Offset=5db
+	DE	Referenzpegeloffset=5db
+
+PLUGIN_PIONEERAVPCONTROL_REF_LEVEL10
+	EN	Reference Level Offset=10db
+	DE	Referenzpegeloffset=10db
+
+PLUGIN_PIONEERAVPCONTROL_REF_LEVEL15
+	EN	Reference Level Offset=15db
+	DE	Referenzpegeloffset=15db

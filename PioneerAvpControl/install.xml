@@ -1,0 +1,19 @@
+<?xml version="1.0"?> 
+ <extension>
+  	<name>PLUGIN_PIONEERAVPCONTROL_MODULE_NAME</name> 
+  	<creator>Werner Lindbuechl</creator> 
+  	<defaultState>enabled</defaultState> 
+  	<description>PLUGIN_PIONEERAVPCONTROL_DESCRIPTION</description> 
+  	<email>squeezeboxplugin@lindbuechl.eu</email> 
+  	<homepageURL></homepageURL> 
+  	<id>5D7AA5EB-EC04-41FA-91AA-ACE45E811017</id> 
+	<icon>plugins/PioneerAvpControl/html/images/icon.png</icon>
+  	<module>Plugins::PioneerAvpControl::Plugin</module> 
+ 	<targetApplication>
+  		<id>SqueezeCenter</id> 
+  		<maxVersion>*</maxVersion> 
+  		<minVersion>7.0</minVersion> 
+  	</targetApplication>
+  	<type>2</type> 
+  	<version>1.0.0</version> 
+  </extension>
